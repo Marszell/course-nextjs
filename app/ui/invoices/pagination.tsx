@@ -20,7 +20,7 @@ export default function Pagination({ totalPages }: { totalPages: number }) {
 
   const allPages = generatePagination(currentPage, totalPages);
 
-  return (
+  return (  
        <div className ="inline-flex">
         <PaginationArrow
           direction="left"
